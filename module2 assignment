@@ -1,0 +1,44 @@
+ASSIGNMENT2 (ANS):
+
+1.a=input("Enter the first number:")
+  b=input("Enter the second number:")
+  if a==b:
+    print("Both numbers are equal")
+  else:
+    print("Numbers are not equal.")
+
+2.a=input("Enter the first number:")
+  b=input("Enter the second number:")
+  c=input("Enter the third number:")
+  if a==b==c:
+     print("All are equal")
+  else:
+    print("Any two are equal")
+
+3.a=input("Enter first number")
+  b=input("Enter second number")
+  sum=a+b
+  if sum>5:
+    print("sum is greater than 5")
+  elseif sum<5:
+    print("sum is lessthan 5")
+  else:
+    print("sum is equal to 5")
+
+4.pm=35
+  a=input("Enter marks")
+  if marks>pm:
+    print("marks greater than passing marks")
+  else
+    print("marks not greater than passing marks")
+
+5.num1=float(input("Enter first number:"))
+  num2=float(input("Enter second number:"))
+  num3=float(input("Enter third number:"))
+  if (num1>num2) and (num1>num3):
+     largest = num1
+  elseif (num2>num1) and (num2>num3):
+     largest = num2
+  else:
+     largest = num3
+  print("The largest number is",largest) 
